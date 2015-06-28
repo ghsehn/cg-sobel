@@ -1,1 +1,77 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Filtro Sobel &mdash; Trabalho de Computação Gráfica</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+  <header class="header">
+    <h1 class="titulo">Filtro Sobel &mdash; Trabalho de Computação Gráfica</h1>
+    <h2 class="componentes">Alunos: Felipe Helfer, Guilherme Sehn, Gustavo Marchesan</h2>
+  </header>
+
+  <input type="file" id="upload">
+
+  <div id="resultado" style="display:none">
+    <div class="resultado-calculo"></div>
+
+    <div class="item" id="original">
+      <h4>Imagem original</h4>
+      <div class="img"></div>
+    </div>
+
+    <div class="item" id="completo">
+      <h4>Sobel completo</h4>
+      <div class="img"></div>
+    </div>
+
+    <div class="item" id="horizontal">
+      <h4>Sobel X</h4>
+      <div class="img"></div>
+    </div>
+
+    <div class="item" id="vertical">
+      <h4>Sobel Y</h4>
+      <div class="img"></div>
+    </div>
+
+    <div class="item" id="colorido">
+      <h4>Colorido</h4>
+      <div class="img"></div>
+      <p>Linhas horizontais em azul, linhas verticais em vermelho</p>
+    </div>
+
+    <div class="item" id="lim">
+      <h4>Sobel + Limiarização</h4>
+      <div class="img"></div>
+      <p><span class="pixels"></span> pixels de borda</p>
+    </div>
+
+    <div class="item" id="lim-x">
+      <h4>Sobel X + Limiarização</h4>
+      <div class="img"></div>
+      <p><span class="pixels"></span> pixels de borda</p>
+    </div>
+
+    <div class="item" id="lim-y">
+      <h4>Sobel Y + Limiarização</h4>
+      <div class="img"></div>
+      <p><span class="pixels"></span> pixels de borda</p>
+    </div>
+  </div>
+
+  <p class="copyright">
+    Algoritmos baseados no artigo
+    <a target="_blank" href="http://www.html5rocks.com/en/tutorials/canvas/imagefilters/">
+      Image Filters with Canvas
+    </a>
+  </p>
+
+  <script src="jquery.js"></script>
+  <script src="filtros.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>
