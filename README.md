@@ -1,7 +1,7 @@
 # cg-sobel
-Trabalho de Computação Gráfica - 2015/2 - UNISC
+Trabalho de Computação Gráfica - 2015/1 - UNISC
 
-[Este app](http://ghsehn.github.io/cg-sobel/) aplica o [operador Sobel](https://en.wikipedia.org/wiki/Sobel_operator) em imagens junto com [limiarização](https://en.wikipedia.org/wiki/Thresholding_(image_processing)) para calcular se uma imagem possui mais pixels de bordas horizontais ou verticais.
+[Este app](http://guisehn.github.io/cg-sobel/) aplica o [operador Sobel](https://en.wikipedia.org/wiki/Sobel_operator) em imagens junto com [limiarização](https://en.wikipedia.org/wiki/Thresholding_(image_processing)) para calcular se uma imagem possui mais pixels de bordas horizontais ou verticais.
 
 Algumas imagens para testar:
 
